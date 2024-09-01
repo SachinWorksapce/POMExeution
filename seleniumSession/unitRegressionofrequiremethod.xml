@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.testScripts.CustomerModule"/>
+      <Methods>
+		<include name="createCustomer"></include>
+	  </Methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
